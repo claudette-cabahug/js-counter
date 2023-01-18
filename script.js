@@ -11,3 +11,8 @@ setInterval( () => {
     counter.innerText = count
   }
 }, 1)
+
+// function does not execute until time provided is achieved
+setTimeout( () => {
+  followers.innerText = "Followers on Instagram!"
+}, 5000)
